@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orvik catalogue</title>
+<meta name="description" content="A product catalogue whose descriptions are drafted and checked by iMBrace and approved by a person. A demo; Orvik is fictional.">
+<link rel="stylesheet" href="../site.css">
+<link rel="stylesheet" href="catalogue.css">
+</head>
+<body>
+<div class="strip"><div class="wrap"><span>Built on iMBrace · An Ingram Micro Singapore demo · Orvik is a fictional brand</span><a href="../">All backend demos</a></div></div>
+<main class="wrap">
+  <header class="hero">
+    <p class="eyebrow">Orvik catalogue</p>
+    <h1>Every description here was drafted by iMBrace and approved by a person.</h1>
+    <p class="lead">The product facts live in iMBrace. iMBrace drafts each description from those facts, checks every figure against them, and publishes it here only after a person approves it.</p>
+  </header>
+
+  <section aria-labelledby="how-h">
+    <h2 id="how-h">How it works</h2>
+    <ol class="steps">
+      <li>Choose a product and a note below.</li>
+      <li>GitHub opens the request form with your choices. Press Create.</li>
+      <li>iMBrace files the request, drafts the description from the product's facts, and checks every figure.</li>
+      <li>A person approves it. iMBrace publishes it here and replies on your request.</li>
+    </ol>
+  </section>
+
+  <section aria-labelledby="ask-h" id="ask">
+    <div class="panel">
+      <h2 id="ask-h">Request a description</h2>
+      <form class="ask" id="ask-form">
+        <label>Product <select id="ask-product"></select></label>
+        <label>Note for the writer <select id="ask-note"></select></label>
+        <a class="btn" id="ask-go" href="#" target="_blank" rel="noopener">Send the request on GitHub</a>
+      </form>
+      <p class="note" id="ask-small">You need a GitHub account, and requests are public. Choose from the lists only.</p>
+      <p class="note">One note asks for claims the facts don't support. Choose it to watch iMBrace's check name them and the writer leave them out.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="products-h">
+    <h2 id="products-h">Products</h2>
+    <p class="note" id="updated" aria-live="polite">Loading the catalogue…</p>
+    <ul class="products" id="products"></ul>
+  </section>
+</main>
+<footer><div class="wrap">Orvik is fictional. Product facts are kept on iMBrace DataIQ boards; descriptions are drafted by an iMBrace agent, checked by FlowOps and approved by a person before iMBrace publishes them to this page.</div></footer>
+<script src="options.js"></script>
+<script src="catalogue.js"></script>
+</body>
+</html>

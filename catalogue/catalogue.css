@@ -1,0 +1,23 @@
+/* The Orvik catalogue page. */
+.ask { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 16px; margin: 8px 0 12px; }
+.ask label { display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 700; }
+.ask select { min-width: 260px; max-width: 100%; padding: 9px 10px; font: inherit; font-weight: 400; color: var(--ink); background: var(--page); border: 1px solid var(--rule); }
+.btn { display: inline-block; padding: 10px 16px; background: var(--accent); color: var(--accent-ink); font-weight: 700; text-decoration: none; border: 1px solid var(--accent); }
+.btn:hover, .btn:focus-visible { text-decoration: underline; }
+.products { list-style: none; padding: 0; margin: 16px 0 0; display: grid; gap: 28px; }
+.product { border-top: 4px solid var(--rule); padding-top: 14px; display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); gap: 8px 32px; }
+.product.has-text { border-top-color: var(--accent); }
+.product .meta { margin: 0 0 8px; color: var(--muted); font-size: 15px; }
+.facts { margin: 0; padding: 0; list-style: none; font-size: 14px; }
+.facts li { display: flex; justify-content: space-between; gap: 12px; padding: 4px 0; border-bottom: 1px solid var(--rule); }
+.facts span:first-child { color: var(--muted); }
+.copy .short { margin: 0 0 8px; font-weight: 700; }
+.copy .long { margin: 0 0 8px; }
+.copy .when { margin: 0; font-size: 13px; color: var(--muted); }
+.copy .none { margin: 0 0 8px; color: var(--muted); }
+.copy a { font-size: 15px; }
+@media (max-width: 800px) {
+  .product { grid-template-columns: 1fr; }
+  .ask select { min-width: 0; width: 100%; }
+  .ask label { width: 100%; }
+}
