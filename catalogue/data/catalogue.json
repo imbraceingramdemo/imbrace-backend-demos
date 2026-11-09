@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T08:13:22.063Z",
+  "updated": "2026-11-09T08:51:58.081Z",
   "source": "iMBrace: product facts on DataIQ boards, approved text published by FlowOps",
   "products": [
     {
@@ -226,10 +226,10 @@
         }
       ],
       "approved": {
-        "short": "The Orvik View 27 is a 27 in 4K UHD monitor with a 60 Hz IPS panel and USB-C power delivery of 65 W.",
-        "long": "The Orvik View 27 is a 27 in monitor with a 3840 × 2160 (4K UHD) resolution and a 60 Hz IPS panel. It is compatible with Windows 11 and macOS 14 or later, over USB-C, HDMI or DisplayPort. Video inputs include USB-C, HDMI 2.0 and DisplayPort 1.4. USB-C power delivery is 65 W. The monitor comes with a 3‑year warranty.",
-        "version": "95c113242596",
-        "publishedAt": "2026-11-09 16:13 SGT"
+        "short": "Orvik View 27 is a 27 in 4K UHD monitor with IPS panel, 60 Hz refresh rate, USB-C power delivery of 65 W, and 3-year warranty.",
+        "long": "The Orvik View 27 is a 27 in monitor with 4K UHD resolution of 3840 × 2160. It has an IPS panel and a refresh rate of 60 Hz. The monitor provides USB-C power delivery of 65 W. Video inputs include USB-C, HDMI 2.0 and DisplayPort 1.4. It is compatible with Windows 11 and macOS 14 or later, over USB-C, HDMI or DisplayPort. The product comes with a 3-year warranty.",
+        "version": "783fbe8a4b94",
+        "publishedAt": "2026-11-09 16:51 SGT"
       }
     },
     {
