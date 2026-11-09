@@ -1,0 +1,280 @@
+{
+  "updated": "2026-11-09T08:13:22.063Z",
+  "source": "iMBrace: product facts on DataIQ boards, approved text published by FlowOps",
+  "products": [
+    {
+      "sku": "ORV-DK12",
+      "name": "Orvik Dock 12",
+      "category": "USB-C docking station",
+      "worksWith": "Windows 11 and macOS 14 or later (on macOS: 1 external display)",
+      "facts": [
+        {
+          "name": "Ethernet",
+          "value": "2.5",
+          "unit": "Gb/s"
+        },
+        {
+          "name": "External displays (Windows)",
+          "value": "2",
+          "unit": "displays"
+        },
+        {
+          "name": "Host connection",
+          "value": "USB-C",
+          "unit": ""
+        },
+        {
+          "name": "Laptop charging",
+          "value": "100",
+          "unit": "W"
+        },
+        {
+          "name": "Maximum resolution",
+          "value": "3840 × 2160 (4K)",
+          "unit": ""
+        },
+        {
+          "name": "Ports",
+          "value": "12",
+          "unit": "ports"
+        },
+        {
+          "name": "Refresh rate at 4K",
+          "value": "60",
+          "unit": "Hz"
+        },
+        {
+          "name": "Warranty",
+          "value": "2",
+          "unit": "years"
+        }
+      ],
+      "approved": null
+    },
+    {
+      "sku": "ORV-HS50",
+      "name": "Orvik Talk 50",
+      "category": "wireless headset",
+      "worksWith": "Windows 11, macOS 14, iOS 17 and Android 13 or later, over Bluetooth",
+      "facts": [
+        {
+          "name": "Battery life (noise cancellation on)",
+          "value": "30",
+          "unit": "hours"
+        },
+        {
+          "name": "Charging",
+          "value": "USB-C",
+          "unit": ""
+        },
+        {
+          "name": "Microphones",
+          "value": "4",
+          "unit": "microphones"
+        },
+        {
+          "name": "Noise cancellation",
+          "value": "Active noise cancellation (ANC)",
+          "unit": ""
+        },
+        {
+          "name": "Warranty",
+          "value": "2",
+          "unit": "years"
+        },
+        {
+          "name": "Weight",
+          "value": "250",
+          "unit": "g"
+        },
+        {
+          "name": "Wireless",
+          "value": "Bluetooth 5.3",
+          "unit": ""
+        }
+      ],
+      "approved": {
+        "short": "The Orvik Talk 50 wireless headset offers 30 hours of battery life with noise cancellation on, Bluetooth 5.3 connectivity, and active noise cancellation.",
+        "long": "The Orvik Talk 50 wireless headset works with Windows 11, macOS 14, iOS 17 and Android 13 or later over Bluetooth. It has active noise cancellation (ANC) and four microphones. Battery life is 30 hours with noise cancellation on. Charging is via USB-C. The headset weighs 250 g and uses Bluetooth 5.3. It comes with a two-year warranty.",
+        "version": "d53e636c0177",
+        "publishedAt": "2026-11-06 12:57 SGT"
+      }
+    },
+    {
+      "sku": "ORV-KB80",
+      "name": "Orvik Type 80",
+      "category": "wireless keyboard",
+      "worksWith": "Windows 11, macOS 14 and ChromeOS, over Bluetooth or the USB receiver",
+      "facts": [
+        {
+          "name": "Battery life",
+          "value": "24",
+          "unit": "months"
+        },
+        {
+          "name": "Keys",
+          "value": "104",
+          "unit": "keys"
+        },
+        {
+          "name": "Warranty",
+          "value": "2",
+          "unit": "years"
+        },
+        {
+          "name": "Weight",
+          "value": "680",
+          "unit": "g"
+        },
+        {
+          "name": "Wireless",
+          "value": "Bluetooth 5.1 and a 2.4 GHz USB receiver",
+          "unit": ""
+        }
+      ],
+      "approved": null
+    },
+    {
+      "sku": "ORV-LT14",
+      "name": "Orvik Aero 14",
+      "category": "laptop",
+      "worksWith": "Windows 11 Pro (preinstalled)",
+      "facts": [
+        {
+          "name": "Battery life (video playback)",
+          "value": "14",
+          "unit": "hours"
+        },
+        {
+          "name": "Memory",
+          "value": "16",
+          "unit": "GB"
+        },
+        {
+          "name": "Ports",
+          "value": "2 × USB-C (USB4), 1 × USB-A, 1 × HDMI 2.1",
+          "unit": ""
+        },
+        {
+          "name": "Processor",
+          "value": "8",
+          "unit": "cores"
+        },
+        {
+          "name": "Screen size",
+          "value": "14",
+          "unit": "in"
+        },
+        {
+          "name": "Storage (SSD)",
+          "value": "512",
+          "unit": "GB"
+        },
+        {
+          "name": "Warranty",
+          "value": "1",
+          "unit": "year"
+        },
+        {
+          "name": "Weight",
+          "value": "1.2",
+          "unit": "kg"
+        }
+      ],
+      "approved": null
+    },
+    {
+      "sku": "ORV-MN27",
+      "name": "Orvik View 27",
+      "category": "4K monitor",
+      "worksWith": "Windows 11 and macOS 14 or later, over USB-C, HDMI or DisplayPort",
+      "facts": [
+        {
+          "name": "Panel",
+          "value": "IPS",
+          "unit": ""
+        },
+        {
+          "name": "Refresh rate",
+          "value": "60",
+          "unit": "Hz"
+        },
+        {
+          "name": "Resolution",
+          "value": "3840 × 2160 (4K UHD)",
+          "unit": ""
+        },
+        {
+          "name": "Screen size",
+          "value": "27",
+          "unit": "in"
+        },
+        {
+          "name": "USB-C power delivery",
+          "value": "65",
+          "unit": "W"
+        },
+        {
+          "name": "Video inputs",
+          "value": "USB-C, HDMI 2.0, DisplayPort 1.4",
+          "unit": ""
+        },
+        {
+          "name": "Warranty",
+          "value": "3",
+          "unit": "years"
+        }
+      ],
+      "approved": {
+        "short": "The Orvik View 27 is a 27 in 4K UHD monitor with a 60 Hz IPS panel and USB-C power delivery of 65 W.",
+        "long": "The Orvik View 27 is a 27 in monitor with a 3840 × 2160 (4K UHD) resolution and a 60 Hz IPS panel. It is compatible with Windows 11 and macOS 14 or later, over USB-C, HDMI or DisplayPort. Video inputs include USB-C, HDMI 2.0 and DisplayPort 1.4. USB-C power delivery is 65 W. The monitor comes with a 3‑year warranty.",
+        "version": "95c113242596",
+        "publishedAt": "2026-11-09 16:13 SGT"
+      }
+    },
+    {
+      "sku": "ORV-SSD2",
+      "name": "Orvik Swift",
+      "category": "portable SSD",
+      "worksWith": "Windows 11, macOS 14, Linux and iPadOS 17 or later, over USB-C",
+      "facts": [
+        {
+          "name": "Capacity",
+          "value": "2",
+          "unit": "TB"
+        },
+        {
+          "name": "Interface",
+          "value": "USB-C (USB 3.2 Gen 2)",
+          "unit": ""
+        },
+        {
+          "name": "Read speed (up to)",
+          "value": "1,050",
+          "unit": "MB/s"
+        },
+        {
+          "name": "Warranty",
+          "value": "5",
+          "unit": "years"
+        },
+        {
+          "name": "Water and dust rating",
+          "value": "IP55",
+          "unit": ""
+        },
+        {
+          "name": "Weight",
+          "value": "58",
+          "unit": "g"
+        },
+        {
+          "name": "Write speed (up to)",
+          "value": "1,000",
+          "unit": "MB/s"
+        }
+      ],
+      "approved": null
+    }
+  ]
+}
