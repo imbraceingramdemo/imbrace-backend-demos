@@ -1,0 +1,17 @@
+/* The Harbourline service desk page. */
+.ask { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 16px; margin: 8px 0 12px; }
+.ask label { display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 700; }
+.ask select { min-width: 420px; max-width: 100%; padding: 9px 10px; font: inherit; font-weight: 400; color: var(--ink); background: var(--page); border: 1px solid var(--rule); }
+.btn { display: inline-block; padding: 10px 16px; background: var(--accent); color: var(--accent-ink); font-weight: 700; text-decoration: none; border: 1px solid var(--accent); }
+.btn:hover, .btn:focus-visible { text-decoration: underline; }
+.tries { margin: 12px 0 0; padding-left: 1.2em; font-size: 15px; color: var(--muted); }
+.tries li { margin: 4px 0; }
+.guides { list-style: none; padding: 0; margin: 12px 0 0; }
+.guides li { display: grid; grid-template-columns: 80px minmax(0, 1fr) minmax(0, 220px); gap: 4px 20px; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 15px; }
+.guides .id { font-weight: 700; }
+.guides .applies { color: var(--muted); }
+@media (max-width: 800px) {
+  .ask select { min-width: 0; width: 100%; }
+  .ask label { width: 100%; }
+  .guides li { grid-template-columns: 1fr; }
+}
