@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T08:51:58.081Z",
+  "updated": "2026-11-09T08:52:03.505Z",
   "source": "iMBrace: product facts on DataIQ boards, approved text published by FlowOps",
   "products": [
     {
@@ -94,10 +94,10 @@
         }
       ],
       "approved": {
-        "short": "The Orvik Talk 50 wireless headset offers 30 hours of battery life with noise cancellation on, Bluetooth 5.3 connectivity, and active noise cancellation.",
-        "long": "The Orvik Talk 50 wireless headset works with Windows 11, macOS 14, iOS 17 and Android 13 or later over Bluetooth. It has active noise cancellation (ANC) and four microphones. Battery life is 30 hours with noise cancellation on. Charging is via USB-C. The headset weighs 250 g and uses Bluetooth 5.3. It comes with a two-year warranty.",
-        "version": "d53e636c0177",
-        "publishedAt": "2026-11-06 12:57 SGT"
+        "short": "The Orvik Talk 50 is a wireless headset with active noise cancellation, 30 hours of battery life, Bluetooth 5.3 and USB-C charging.",
+        "long": "The Orvik Talk 50 wireless headset works with Windows 11, macOS 14, iOS 17 and Android 13 or later over Bluetooth 5.3. It has active noise cancellation and four microphones. The battery lasts for 30 hours with noise cancellation on. It charges via USB-C. The headset weighs 250 g and comes with a two-year warranty.",
+        "version": "1a648a9f24f1",
+        "publishedAt": "2026-11-09 16:51 SGT"
       }
     },
     {
