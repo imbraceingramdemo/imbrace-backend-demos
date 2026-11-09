@@ -4,6 +4,11 @@
 .ask select { min-width: 260px; max-width: 100%; padding: 9px 10px; font: inherit; font-weight: 400; color: var(--ink); background: var(--page); border: 1px solid var(--rule); }
 .btn { display: inline-block; padding: 10px 16px; background: var(--accent); color: var(--accent-ink); font-weight: 700; text-decoration: none; border: 1px solid var(--accent); }
 .btn:hover, .btn:focus-visible { text-decoration: underline; }
+button.btn { font: inherit; font-weight: 700; cursor: pointer; }
+button.btn:disabled { opacity: .6; cursor: progress; }
+.result { margin: 4px 0 16px; padding: 14px 16px; border-left: 4px solid var(--accent); background: var(--surface); }
+.result p { margin: 4px 0; }
+.result-ref { font-weight: 700; }
 .products { list-style: none; padding: 0; margin: 16px 0 0; display: grid; gap: 28px; }
 .product { border-top: 4px solid var(--rule); padding-top: 14px; display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); gap: 8px 32px; }
 .product.has-text { border-top-color: var(--accent); }

@@ -1,0 +1,15 @@
+# The iMBrace backend demos on Netlify. The pages are in site/; the server functions (netlify/functions/) hand visitors'
+# choices to iMBrace workflows. The workflows' addresses and the shared key are environment variables set in Netlify.
+[build]
+  publish = "site"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "DENY"
